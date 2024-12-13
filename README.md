@@ -9,15 +9,34 @@ This is an API for a standard store, developed in Python using the FastAPI frame
 - **Alembic Migrations**: Database migrations are managed using Alembic to ensure version control and smooth updates.
 - **Docker Integration**: The application is configured to run with Docker for easy deployment and containerization.
 
+## Models
+
+The project includes the following key models:
+- **User**: Represents the users of the store.
+- **Order**: Represents customer orders in the system.
+- **OrderItem**: Represents the items within an order.
+- **Product**: Represents the products available in the store.
+
 ## Installation
 
 1. Clone the repository:
+
+    Using SSH:
     ```bash
-    git clone <repository_url>
+    git clone git@github.com:MrBubliKK/candy_shop.git
+    ```
+
+    Using HTTPS:
+    ```bash
+    git clone https://github.com/MrBubliKK/candy_shop.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
     cd <repository_directory>
     ```
 
-2. Build and run with Docker:
+3. Build and run with Docker:
     ```bash
     docker-compose up --build
     ```
