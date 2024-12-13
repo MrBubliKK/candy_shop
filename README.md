@@ -33,7 +33,7 @@ The project includes the following key models:
 
 2. Navigate to the project directory:
     ```bash
-    cd <repository_directory>
+    cd <candy_shop>
     ```
 
 3. Build and run with Docker:
